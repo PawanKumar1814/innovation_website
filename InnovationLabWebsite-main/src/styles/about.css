@@ -1,0 +1,9 @@
+.about-section-bg {
+    background-image: url('../../public/assets/bc.jpg');  /* Path to your image */
+    background-size: cover;   /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    width: 100%;
+    padding: 50px 0; /* Adds spacing above and below */
+  }
+  

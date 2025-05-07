@@ -1,0 +1,58 @@
+/* home.css */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #1e293b; 
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .heading, .para{
+    text-align: center;
+  }
+
+  .heading{
+    margin-top: 10px;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* Main background for the middle section */
+.content-background {
+    background-image: url('../../public/assets/9068.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+/* .content-background {
+  background-color: black;
+  background-image: 
+    radial-gradient(circle, rgb(255, 106, 0) 3px, transparent 4px),
+    linear-gradient(to right, rgba(243, 151, 75, 0.3) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(240, 150, 47, 0.3) 1px, transparent 1px);
+  background-size:  50px 50px;
+  background-position: center;
+  width: 100%;
+} */
+
+
+/* Optional: Make sure HeroSection and Footer stay clean */
+.hero-section, footer {
+    background: none; /* Prevent inheritance */
+}

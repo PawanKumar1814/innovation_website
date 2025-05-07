@@ -1,0 +1,140 @@
+/* Color palette */
+
+/* color: #f4a500;
+color: #159edd;
+color: #061ba4;
+color: #1ed4d7; */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #000;
+    /* border-bottom: 2px solid #e94c26; */
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+  }
+  
+  .header__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__logo {
+    height: 80px;
+    margin-left: 20px;
+  }
+  
+  .header__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .header__nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header__nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header__nav-item {
+    margin-right: 20px;
+  }
+  
+  .header__nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white; /* Changed from black */
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .header__nav-link:hover,
+  .header__nav-link:focus {
+    background-color: #1463eb;
+    color: #fff;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__search-form {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .header__search-input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .header__search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .header__search-icon {
+    font-size: 20px;
+    color: white; /* Changed from black */
+  }
+  
+  
+  .header__dropdown-icon {
+    margin-left: 5px;
+    font-size: 14px;
+    color: black;
+    vertical-align: middle;
+  }
+
+  
+  .header__dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 10px;
+    margin-top: 5px;
+    width: 150px;
+    z-index: 1000;
+  }
+  
+  .header__dropdown-menu li {
+    margin-bottom: 10px;
+  }
+  
+  .header__dropdown-menu li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .header__dropdown-menu a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .header__dropdown-menu a:hover {
+    color: #007bff;
+  }
+  
+  
+  

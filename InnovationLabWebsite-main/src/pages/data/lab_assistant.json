@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Dr Jacob Chandapillai",
+    "title": "Chief Innovation Officer",
+    "photo": "/assets/Jacob.jpg",
+    "email": "cio@iitpkd.ac.in"
+  },
+  {
+    "name": "Dr. Anoop Akkoorath Mana",
+    "title": "Faculty-in-charge",
+    "photo": "/assets/Anoop.jpg",
+    "email": "akkoorath@iitpkd.ac.in"
+  },
+  {
+    "name": "Mr.Ananthu Sasikumar",
+    "title": "JTS/EE",
+    "photo": "/assets/Anandu.jpg",
+    "email": "ananthu@iitpkd.ac.in"
+  }
+]

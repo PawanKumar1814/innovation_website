@@ -1,0 +1,101 @@
+/* Basic styling for the page */
+.readmore-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.readmore-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.readmore-details {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.project-section {
+  margin-bottom: 40px;
+}
+
+.project-section h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.project-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.project-section ul li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s forwards;
+}
+
+.feature-item, .tech-item {
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover, .tech-item:hover {
+  color: #3498db;
+  cursor: pointer;
+}
+
+/* Animation for fade-in and fade-up effects */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Styling for the demo link */
+.demo-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+  transition: background-color 0.3s ease;
+}
+
+.demo-link:hover {
+  background-color: #2980b9;
+}

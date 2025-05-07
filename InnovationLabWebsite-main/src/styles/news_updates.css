@@ -1,0 +1,121 @@
+/* Main container for the news section */
+*{
+  font-family: "Proxima Nova", "Proxima Nova Bold";
+}
+.news-container {
+  padding: 40px;
+  min-height: 100vh;
+  position: relative;
+  color: white; /* White text */
+}
+
+/* News heading with "NEWS" and glowing "UPDATES" */
+.news-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+}
+
+.news-heading span {
+  color: red; /* Highlighting updates */
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8); /* Glowing effect */
+}
+
+/* News content section */
+.news-content {
+  align-items: center;
+  top: 0;
+  padding-top: 50px;
+  padding-left: 200px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+  right: 500px;
+}
+
+/* News paragraph */
+.news-content p {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: last baseline;
+  color: white;
+}
+
+/* Posts container */
+.posts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+/* Left section */
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Right section */
+.right {
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #333;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Post styling */
+.post {
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background: #111;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.post:hover {
+  transform: translateX(10px);
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+}
+
+/* Post title */
+.post-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px;
+  color: white;
+}
+
+/* Post description */
+.post-description {
+  font-size: 14px;
+  color: #aaa;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* Post date */
+.post-date {
+  font-size: 12px;
+  color: #666;
+  opacity: 0.6;
+}
